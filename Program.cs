@@ -53,18 +53,7 @@ while(true)
     }
     else if (a == 4)
     {
-        int[] number = new int[10];
-        for (int i = 0; i < number.Length; i++)
-        {
-            Console.Write("Please enter the  Name :");
-            number[i] = int.Parse(Console.ReadLine());
-        }
-        Console.Write("Please enter the search :");
-        int search = int.Parse(Console.ReadLine());
-
-        MyAlgorithms algorithms = new MyAlgorithms();
-        bool result = algorithms.BinarySearcher(number, search);
-        Console.WriteLine(result.ToString());
+        
     }
     else if (a == 5)
     {

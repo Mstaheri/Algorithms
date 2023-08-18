@@ -51,7 +51,7 @@ namespace Algorithms
             return false;
 
         }
-        ///////////////////////////////////////////////////// //
+        ///////////////////////////////////////////////////////
         public int[] BinaryInsertionSort(int[] arr)
         {
             for (int i = 1; i < arr.Length; i++)
