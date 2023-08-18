@@ -60,7 +60,6 @@ namespace Algorithms
                 int left = 0;
                 int right = i - 1;
 
-                // استفاده از جستجوی دودویی برای یافتن مکان مناسب برای قرار دادن عنصر
                 while (left <= right)
                 {
                     int mid = (left + right) / 2;
@@ -71,7 +70,6 @@ namespace Algorithms
                         left = mid + 1;
                 }
 
-                // شیفت دادن عناصر به راست برای ایجاد جای خالی برای قرار دادن عنصر
                 for (int j = i - 1; j >= left; j--)
                 {
                     arr[j + 1] = arr[j];
